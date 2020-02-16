@@ -1,0 +1,18 @@
+ Install NVM & Yarn
+
+  nvm install v9.11.1                                                                                &&
+  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg     | sudo apt-key add -                         &&
+  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list &&
+  sudo apt-get update && sudo apt-get install yarn
+
+
+
+  git clone https://github.com/affan00733/Identity-management-ETHIndia.git &&
+  cd blockchain-identity                                      &&
+  nvm use v9.11.1 && yarn install
+
+
+  nvm use v9.11.1 &&
+  yarn clean      &&
+  yarn start
+

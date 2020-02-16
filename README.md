@@ -89,7 +89,7 @@ More explanation to follow...
 ### Installation 
 ```
   # 
-  git clone https://github.com/vboss-tech/blockchain-identity &&
+  git clone https://github.com/affan00733/Identity-management-ETHIndia.git &&
   cd blockchain-identity                                      &&
   nvm use v9.11.1 && yarn install
 ```
